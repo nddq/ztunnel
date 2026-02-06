@@ -7,7 +7,7 @@ Ztunnel provides an implementation of the ztunnel component of
 
 Upstream ztunnel only supports Istio's built-in CA for certificate issuance. This fork adds support for SPIRE as an alternative Certificate Authority, enabling SPIFFE-based workload identity for environments that use SPIRE instead of Istio's CA.
 
-### Why Under Cilium (as a Sub-Project)
+### Why Under Cilium
 
 - Cilium is the primary consumer of this SPIRE integration for now.
 - Provides a home for the fork while the SPIRE CA support is developed and validated.
